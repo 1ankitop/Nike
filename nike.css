@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+} 
+.logo img{
+    height: 4rem;
+    width: 5rem;
+    margin-left: 1rem;
+}
+.cate ul{
+    display: flex;
+   gap: 0.8rem;
+    list-style-type: none;
+    margin-left: 6rem;
+}
+.cate ul li{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-left: 2rem;
+}
+.searchbar{
+    margin-right: 3rem;
+    align-items: center;
+}
+.searchbar .src{
+    position: relative;
+    margin-left: -2rem;
+    z-index: 4;
+
+
+}
+.searchbar input{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 1rem;
+    border:1px solid black ;
+    outline: none;
+  
+
+
+
+
+   
+} input{
+    padding-left: 0.3rem;
+}
+.di{
+    margin-left: 3rem;
+    font-size: 2rem;
+    font-weight: 200;
+}
+.fixleft{
+    height: 33rem;
+    width: 20rem;
+    background-color: aqua;
+}
+.fixleft h1{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 3.5rem;
+    padding-top: 1rem;
+
+}
+.fixleft h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+    
+}
+.fixlow h3{
+    padding-top: 0.5rem;
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+.fixlow h4{
+    padding-top: 0.5rem;
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+.fixlow h5{
+    padding-top: 0.5rem;
+    font-size: 2rem;
+    margin-left: 4rem;
+}
